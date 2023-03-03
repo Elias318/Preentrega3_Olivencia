@@ -1,6 +1,15 @@
-@import "./base/reset.scss";
+@import "./base/_reset.scss";
+@import "./base/typo";
+@import "./layout/nav";
+@import "./layout/footer";
+@import "./Utilidades/variables";
+@import "./Utilidades/condicionales";
 @import "./paginas/index.scss";
 @import "./paginas/servicios.scss";
 @import "./paginas/preguntas.scss";
 @import "./paginas/nosotros.scss";
 @import "./paginas/contacto.scss";
+@import "./layout/nav";
+@import "./layout/footer";
+
+

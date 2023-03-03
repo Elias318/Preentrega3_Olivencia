@@ -1,0 +1,10 @@
+.navbar{
+    background-color: map-get($paleta-colores, principal ) !important;
+}
+#menu a {
+    color: map-get($paleta-colores, secundario );
+    font-size: 18px;
+}
+.color-boton{
+    border: solid 2px white !important;
+}

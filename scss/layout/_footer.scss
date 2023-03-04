@@ -1,5 +1,6 @@
+
 footer{
-    background-color: maps-get($paleta-colores , principal ) !important;
-    color:map-get($pale, secundario);
+    background-color: map-get($paleta-colores , "principal" ) !important;
+    color:map-get($paleta-colores, "secundario") ;
     }
     

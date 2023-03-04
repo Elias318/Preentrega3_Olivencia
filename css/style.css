@@ -14,22 +14,15 @@ body {
   font-size: 18px; }
 
 .color-boton {
-  border: solid 2px white !important; }
+  border: solid 2px white; }
 
 footer {
   background-color: #062844 !important;
   color: #D7D8DE; }
 
-.navbar {
-  background-color: #062844 !important; }
-
-#menu a {
-  color: #D7D8DE;
-  font-size: 18px; }
-
-.color-boton {
-  border: solid 2px white !important; }
-
-footer {
-  background-color: #062844 !important;
-  color: #D7D8DE; }
+.contenedor-boton-conoce-mas {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 600px; }

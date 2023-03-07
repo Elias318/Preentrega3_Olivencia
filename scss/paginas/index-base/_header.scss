@@ -1,0 +1,36 @@
+$vista:desktop;
+
+header{
+    @if $vista== mobile {
+        @media only screen and (max-width:768px){
+            .contenedor-boton-conoce-mas{
+                
+                
+                padding-top: 150px;
+                
+            }
+            .boton-reserva{
+                font-size: small;
+            }
+            
+            
+        }
+
+
+    } @else if $vista == desktop{
+        @media only screen and (min-width:1024px){
+            .contenedor-boton-conoce-mas{
+                
+              
+                width: 13vw ;
+                
+            }
+            .boton-reserva{
+                font-size: 1.5rem;
+            }
+        }
+    }@else{
+
+    }
+
+}

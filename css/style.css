@@ -20,9 +20,20 @@ footer {
   background-color: #062844 !important;
   color: #D7D8DE; }
 
-.contenedor-boton-conoce-mas {
+@media only screen and (min-width: 1024px) {
+  header .contenedor-boton-conoce-mas {
+    width: 13vw; }
+  header .boton-reserva {
+    font-size: 1.5rem; } }
+
+.titulo-servicio {
   position: absolute;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 600px; }
+  justify-content: start;
+  padding-top: 200px; }
+
+.subtitulo-servicios {
+  text-decoration: underline #062844; }
+
+.div-servicios {
+  width: 200px; }

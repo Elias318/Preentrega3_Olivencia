@@ -1,9 +1,10 @@
 @import "./base/_reset.scss";
+@import "./Utilidades/variables";
+@import "./Utilidades/mixins";
+@import "./Utilidades/condicionales";
 @import "./base/typo";
 @import "./layout/nav";
 @import "./layout/footer";
-@import "./Utilidades/variables";
-@import "./Utilidades/condicionales";
 @import "./paginas/index.scss";
 @import "./paginas/servicios.scss";
 @import "./paginas/preguntas.scss";

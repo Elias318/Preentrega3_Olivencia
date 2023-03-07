@@ -4,6 +4,15 @@ body{
 @if $vista == mobile{
     @media only screen and (min-width: 767px){
 
+        //SECCION NOSOTROS
+        .img-doctora{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+
+        }
+
     }
 }@else if $vista == desktop {
     @media only screen and (max-width: 1024px){

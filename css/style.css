@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box; }
 
+@media only screen and (min-width: 767px) {
+  body .img-doctora {
+    display: flex;
+    justify-content: start;
+    align-items: center; } }
+
 body {
   font-family: 'Lora', serif; }
 
@@ -37,3 +43,6 @@ footer {
 
 .div-servicios {
   width: 200px; }
+
+.form-control {
+  display: inline-block !important; }

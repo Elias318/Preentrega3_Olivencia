@@ -1,6 +1,7 @@
 @import "../Utilidades/variables";
 .navbar{
     background-color: map-get($paleta-colores , "principal" ) !important;
+    
 }
 #menu a {
     color: map-get($paleta-colores, "secundario" );
@@ -8,4 +9,19 @@
 }
 .color-boton{
     border: solid 2px white ;
+}
+
+//ANIMACIONES
+
+.efecto-1{
+    transition: 1s;
+}
+
+.efecto-1:hover {
+    transform: translateY(-3px) scale(1.1);
+    
+
+}
+.active{
+  color:orange !important;
 }

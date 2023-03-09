@@ -3,12 +3,6 @@
   padding: 0;
   box-sizing: border-box; }
 
-@media only screen and (min-width: 767px) {
-  body .img-doctora {
-    display: flex;
-    justify-content: start;
-    align-items: center; } }
-
 body {
   font-family: 'Lora', serif; }
 
@@ -22,15 +16,71 @@ body {
 .color-boton {
   border: solid 2px white; }
 
+.efecto-1 {
+  transition: 1s; }
+
+.efecto-1:hover {
+  transform: translateY(-3px) scale(1.1); }
+
+.active {
+  color: orange !important; }
+
 footer {
   background-color: #062844 !important;
   color: #D7D8DE; }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 30px; }
+
+.header {
+  height: 45vh !important;
+  background: url(/images/banner-web--mascota.png) no-repeat center;
+  background-size: cover; }
+
+@media only screen and (min-width: 767px) {
+  .cards-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; } }
+
 @media only screen and (min-width: 1024px) {
-  header .contenedor-boton-conoce-mas {
-    width: 13vw; }
-  header .boton-reserva {
-    font-size: 1.5rem; } }
+  .cards-servicios {
+    display: flex;
+    justify-content: space-around; } }
+
+.index-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 30px; }
+
+.index-nosotros {
+  height: 45vh !important;
+  background: url(/images/banner-web--mascota.png) no-repeat center;
+  background-size: cover; }
+
+.card-img-top {
+  height: 250px; }
+
+.card-body {
+  color: #D7D8DE;
+  background-color: #062844; }
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: white;
+  background-color: blueviolet; }
+
+.btn-home a {
+  margin: 0 10px; }
 
 .titulo-servicio {
   position: absolute;
@@ -43,6 +93,16 @@ footer {
 
 .div-servicios {
   width: 200px; }
+
+@media only screen and (min-width: 767px) {
+  body .contenedor-seccion-doc {
+    display: flex;
+    flex-direction: column-reverse; } }
+
+@media only screen and (min-width: 1024px) {
+  body .contenedor-seccion-doc {
+    display: flex;
+    flex-direction: row; } }
 
 .form-control {
   display: inline-block !important; }

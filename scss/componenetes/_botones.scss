@@ -1,8 +1,18 @@
-// .contenedor-boton-conoce-mas{
-//     position: absolute;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     padding-top: 600px;
-// }
+.btn{
+    display: inline-block;
+    
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+  }
+
+  
+  
+
+  .btn-home a{
+    margin: 0 10px;
+  }
 

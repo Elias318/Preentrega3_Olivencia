@@ -1,23 +1,9 @@
 
-@media only screen and (min-width:767px){
-    .cards-servicios{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
 
-}
 
-@media only screen and (min-width:1024px){
-    .cards-servicios{
-    
-        display: flex;
-        justify-content: space-around;
-    }
 
-}
 
+//SECCION NOSOTROS
 
 .index-nosotros{
     display: flex;
@@ -27,18 +13,26 @@
 }
 
 .index-nosotros{
-    height: 45vh !important;
-        background:url(/images/banner-web--mascota.png) no-repeat center;
+    background: url(https://fondosmil.com/fondo/37827.jpg) no-repeat center;
+        background-attachment: fixed;
         background-size: cover;
+        height: 40vh;
+
 }
 
-.card-img-top{
 
-    height: 250px;
+
+
+
+//ANIMACIONES
+
+.card{
+    transition: 1s;
 }
 
-.card-body{
-    color: map-get($paleta-colores, "secundario" );
-    background-color: map-get($paleta-colores , "principal" );
+.card:hover{
+    transform: translateY(-3px) scale(1.1)
+
 }
+
     

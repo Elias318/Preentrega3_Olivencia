@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +26,49 @@ body {
 .active {
   color: orange !important; }
 
+@media only screen and (min-width: 767px) {
+  body {
+    font-size: 30px; }
+  .card {
+    margin-top: 5px; }
+  .cards-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .card-img-top {
+    height: 250px; }
+  .card-body {
+    color: #D7D8DE;
+    background-color: #062844; }
+  .marcas-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .marca-purina {
+    height: 250px;
+    padding: 0;
+    display: flex;
+    justify-content: center; }
+  .marca {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .marca-pedigree {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px; } }
+
+@media only screen and (min-width: 1024px) {
+  .cards-servicios {
+    display: flex;
+    justify-content: space-around; }
+  .card-img-top {
+    height: 250px; }
+  .card-body {
+    color: #D7D8DE;
+    background-color: #062844; } }
+
 footer {
   background-color: #062844 !important;
   color: #D7D8DE; }
@@ -40,18 +84,6 @@ footer {
   background: url(/images/banner-web--mascota.png) no-repeat center;
   background-size: cover; }
 
-@media only screen and (min-width: 767px) {
-  .cards-servicios {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap; } }
-
-@media only screen and (min-width: 1024px) {
-  .cards-servicios {
-    display: flex;
-    justify-content: space-around; } }
-
 .index-nosotros {
   display: flex;
   justify-content: center;
@@ -59,16 +91,20 @@ footer {
   padding-bottom: 30px; }
 
 .index-nosotros {
-  height: 45vh !important;
-  background: url(/images/banner-web--mascota.png) no-repeat center;
-  background-size: cover; }
+  background: url(https://fondosmil.com/fondo/37827.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 40vh; }
 
-.card-img-top {
-  height: 250px; }
+.card {
+  transition: 1s; }
 
-.card-body {
-  color: #D7D8DE;
-  background-color: #062844; }
+.card:hover {
+  transform: translateY(-3px) scale(1.1); }
+
+.btn-home {
+  display: flex;
+  justify-content: center; }
 
 .btn {
   display: inline-block;
@@ -80,7 +116,8 @@ footer {
   background-color: blueviolet; }
 
 .btn-home a {
-  margin: 0 10px; }
+  margin: 0 10px;
+  text-align: center; }
 
 .titulo-servicio {
   position: absolute;
@@ -103,6 +140,84 @@ footer {
   body .contenedor-seccion-doc {
     display: flex;
     flex-direction: row; } }
+
+.testimonios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.testimonios-header {
+  margin: 50px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .testimonios-header h1 {
+    font-size: 2.9rem;
+    font-weight: 500;
+    background-color: magenta;
+    padding: 10px 20px; }
+  .testimonios-header span {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    text-transform: uppercase; }
+
+.testimonios-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.testimonios-caja {
+  width: 700px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer; }
+
+.perfil-imagen {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px; }
+  .perfil-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: center; }
+
+.perfil {
+  display: flex;
+  align-items: center; }
+
+.name-user {
+  display: flex;
+  flex-direction: column; }
+  .name-user strong {
+    color: #3d3d3d;
+    font-size: 1.3rem; }
+  .name-user span {
+    color: #979797;
+    font-size: 1.1rem; }
+
+.reseñas {
+  color: #f9d71c; }
+
+.caja-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; }
+
+.comentarios-clientes {
+  width: 100%; }
+  .comentarios-clientes p {
+    color: #4d4d4d; }
 
 .form-control {
   display: inline-block !important; }

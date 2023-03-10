@@ -1,3 +1,10 @@
+
+.btn-home{
+  display: flex;
+  justify-content: center;
+}
+
+
 .btn{
     display: inline-block;
     
@@ -9,10 +16,12 @@
     background-color: blueviolet;
   }
 
+
   
   
 
   .btn-home a{
     margin: 0 10px;
+    text-align: center;
   }
 

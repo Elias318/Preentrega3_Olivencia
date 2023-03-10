@@ -26,6 +26,9 @@ body {
 .active {
   color: orange !important; }
 
+.sombra {
+  text-shadow: 4px 4px 5px; }
+
 @media only screen and (min-width: 767px) {
   body {
     font-size: 30px; }
@@ -130,6 +133,13 @@ footer {
 
 .div-servicios {
   width: 200px; }
+
+.fa-solid {
+  padding: 10px;
+  font-size: 65px;
+  color: #D7D8DE;
+  background-color: #062844;
+  border-radius: 30px; }
 
 @media only screen and (min-width: 767px) {
   body .contenedor-seccion-doc {

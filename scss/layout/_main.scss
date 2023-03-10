@@ -1,5 +1,10 @@
 @import "../Utilidades/variables";
 
+.sombra{
+    text-shadow: 4px 4px 5px ;
+
+}
+
 @media only screen and (min-width:767px){
     body{
         font-size: 30px;

@@ -6,3 +6,11 @@
     width: 200px;
 
 }
+
+.fa-solid{
+    padding: 10px;
+    font-size: 65px;
+    color: map-get($paleta-colores , secundario );
+    background-color: map-get($paleta-colores, principal );
+    border-radius: 30px;
+}

@@ -154,6 +154,15 @@ footer {
     display: flex;
     flex-direction: row; } }
 
+.box-nosotros {
+  font-size: 2.9rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  background-color: #062844;
+  color: #D7D8DE;
+  padding: 10px 20px; }
+
 .testimonios {
   display: flex;
   flex-direction: column;
@@ -168,15 +177,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .testimonios-header h1 {
-    font-size: 2.9rem;
-    font-weight: 500;
-    background-color: magenta;
-    padding: 10px 20px; }
-  .testimonios-header span {
-    font-size: 2.2rem;
-    margin-bottom: 25px;
-    text-transform: uppercase; }
 
 .testimonios-contenedor {
   display: flex;

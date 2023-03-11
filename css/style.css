@@ -121,6 +121,14 @@ footer {
   color: white;
   background-color: #062844; }
 
+.btn-footer {
+  margin-top: 13px;
+  padding: 5px 20px;
+  border: 3px solid #062844;
+  text-decoration: none;
+  color: #062844;
+  background-color: #D7D8DE; }
+
 .btn-home a {
   margin: 0 10px;
   text-align: center; }

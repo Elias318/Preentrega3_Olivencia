@@ -234,3 +234,9 @@ footer {
 
 .form-control {
   display: inline-block !important; }
+
+.contenedor-datos-form {
+  margin-bottom: 80px; }
+
+.contenedor-datos-iconos {
+  margin-top: 80px; }

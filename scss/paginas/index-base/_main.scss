@@ -5,19 +5,30 @@
 
 //SECCION NOSOTROS
 
-.index-nosotros{
-    display: flex;
-        justify-content: center;
-        align-items: end;
-        padding-bottom:30px ;
-}
+
 
 .index-nosotros{
     background: url(https://fondosmil.com/fondo/37827.jpg) no-repeat center;
         background-attachment: fixed;
         background-size: cover;
         height: 40vh;
+       
 
+}
+
+.titulo-nosotros{
+    text-align: center;
+    
+    
+   
+
+}
+.btn-nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 85%;
+    
 }
 
 

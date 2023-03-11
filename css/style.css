@@ -88,16 +88,19 @@ footer {
   background-size: cover; }
 
 .index-nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  padding-bottom: 30px; }
-
-.index-nosotros {
   background: url(https://fondosmil.com/fondo/37827.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   height: 40vh; }
+
+.titulo-nosotros {
+  text-align: center; }
+
+.btn-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 85%; }
 
 .card {
   transition: 1s; }
@@ -116,7 +119,7 @@ footer {
   border: 2px solid black;
   text-decoration: none;
   color: white;
-  background-color: blueviolet; }
+  background-color: #062844; }
 
 .btn-home a {
   margin: 0 10px;
